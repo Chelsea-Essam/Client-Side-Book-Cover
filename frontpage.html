@@ -1,0 +1,123 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/frontpage.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/frontpage.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <title>
+    BOOK COVER</title>
+    <body style="background-color:aliceblue">
+        <div class="navbar"></div>
+        <div class="col-md-6">
+            <form >
+                <table class="t1">
+                    <tr>
+                        <td>
+                            Book title
+                        </td>
+                        <td>
+                            <input type="text" id="title" class="img-rounded">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Book subtitle
+                        </td>
+                        <td>
+                            <input type="text" id="subtitle" class="img-rounded">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Author name
+                        </td>
+                        <td>
+                            <input type="text" id="author" class="img-rounded">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Background color
+                        </td>
+                        <td>
+                            <input type="text" id="color" class="img-rounded">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Publisher
+                        </td>
+                        <td>
+                            <input type="text" id="publisher" class="img-rounded">
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        Publishing year
+                    </td>
+                        <td>
+                            <select id="select" class="img-rounded">
+                                <option>1983</option>
+                                <option>1984</option>
+                                <option>1985</option>
+                                <option>1986</option>
+                                <option>1987</option>
+                                <option>1988</option>
+                                <option>1989</option>
+                                <option>1990</option>
+                                <option>1991</option>
+                                <option>1992</option>
+                                <option>1993</option>
+                                <option>1994</option>
+                                <option>1995</option>
+                                <option>1996</option>
+                                <option>1997</option>
+                                <option>1998</option>
+                                <option>1999</option>
+                                <option>2000</option>
+                                <option>2001</option>
+                                <option>2002</option>
+                                <option>2003</option>
+                                <option>2004</option>
+                                <option>2005</option>
+                                <option>2006</option>
+                                <option>2007</option>
+                                <option>2008</option>
+                                <option>2009</option>
+                                <option>2010</option>
+                                <option>2011</option>
+                                <option>2012</option>
+                                <option>2013</option>
+                                <option>2014</option>
+                                <option>2015</option>
+                                <option>2016</option>
+                                <option>2017</option>
+                                <option>2018</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr >
+                      <td> </td>  
+                    </tr>
+                </table>
+            </form>
+            <button  class="btn btn-primary " id="generate"> Generate</button>
+            <button class="btn btn-primary" id="reload">New</button>
+            
+            
+            
+            
+        </div>
+        <div class="col-md-6 img-rounded" id="cover" style="width:500px;height:400px;border:1px solid #000;">
+        <div id="divtitle" style="font-weight:bold;" class="align-top"></div>
+            <div id="divsubtitle"></div>
+            <div id="divauthor">By </div>
+            <div id="divcolor"></div>
+            <div id="divpublisher">Published By </div>
+            <div id="divyear" >In </div>
+        </div>
+    </body>
+</html>

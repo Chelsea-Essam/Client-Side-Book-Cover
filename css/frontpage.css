@@ -1,0 +1,27 @@
+
+#divtitle
+{
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+#divsubtitle,#divauthor,#divcolor,#divpublisher,#divyear{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 20px;
+    
+    
+}
+#cover{
+    line-height: 20px;
+}
+.t1{
+    border-collapse: separate;
+    border-spacing: 2em;
+}
+#cover
+{
+    border-collapse: separate;
+    border-spacing: 1em;
+}
